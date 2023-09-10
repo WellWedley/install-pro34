@@ -1,86 +1,101 @@
-
-
 :root {
     /* Define colors  */
     --main-red: #F23D3D;
-    --nav-blue: #32323f;
+    --button-color: #DD272D;
+    --nav-blue: #292E3B;
     --body-blue: #1d1f2d;
- 
+
 }
+
 @font-face {
     font-family: WorkSans;
     src: url(/fonts/Work_Sans/static/WorkSans-ExtraLight.ttf);
 }
 
-body{
+body {
     background-color: var(--body-blue);
     font-family: WorkSans;
 }
-nav{
+
+.navbar-container {
     background-color: var(--nav-blue);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     height: 6.85vw;
-box-shadow: var(--main-shadow);
+
+    box-shadow: var(--main-shadow);
 
 
 }
+
 .logo_link {
     position: absolute;
     z-index: 7;
-    left: 15vw;
-    top: 2vw;
+    left: 12.5vw;
+    bottom: .3vw;
 
 }
-.logo_img {
-    width: 13vw;
+
+
+.logo_img, .logo_img2 {
+    height: 100%;
+    width: 5.8vw;
+
 }
 
+.logo_img2 {
+    position: relative;
+    top: .6vw;
+}
 
-
-.site-title{
-    display: flex;
-    flex-direction: row; 
+.site-title {
     font-size: 1.2vw;
-
-}
-.site-title>.accueil{
-    margin-right: 2vw;
 }
 
+.site-title>.accueil, .site-title>.nos-services {
+    margin: 1.5vw;
 
-  a:link, a:visited, .demande-devis {
+}
+
+
+a:link, a:visited, .demande-devis {
     text-decoration: none;
-    color: aliceblue; 
-} 
+    color: aliceblue;
+}
 
-a:hover{
+a:hover, a:active {
+
     color: rgb(242, 61, 61);
 
 }
 
-ul{
+ul {
+    position: relative;
+    top: .5vw;
+    left: 5vw;
     display: flex;
-align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     list-style-type: none;
 }
 
-.demande-devis{
+.demande-devis {
     position: relative;
-    background-color: var(--main-red);
+    right: 17.5vw;
+    background-color: var(--button-color);
     font-size: 1vw;
-font-weight: 800;
+    font-weight: 800;
     border-radius: 5vw;
     border-color: transparent;
-    left: 9vw;
-padding: .4vw;
+    width: 11.5vw;
+    padding: .4vw 0;
 
-transition: background-color .3s;
+    transition: background-color .3s;
 }
 
-.demande-devis:hover{
+.demande-devis:hover {
     background-color: rgb(231, 123, 123);
 }

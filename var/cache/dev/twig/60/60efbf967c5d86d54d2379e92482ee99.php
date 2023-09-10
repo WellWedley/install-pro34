@@ -66,7 +66,7 @@ class __TwigTemplate_bf4a047f6c1fa07b1148865556417bf6 extends Template
 
         // line 4
         echo "
-";
+\t";
         // line 5
         echo twig_escape_filter($this->env, (isset($context["message"]) || array_key_exists("message", $context) ? $context["message"] : (function () { throw new RuntimeError('Variable "message" does not exist.', 5, $this->source); })()), "html", null, true);
         echo "
@@ -100,7 +100,8 @@ class __TwigTemplate_bf4a047f6c1fa07b1148865556417bf6 extends Template
 
 {% block body %}
 
-{{message}}
-{% endblock %}", "home.html.twig", "/Users/romainc/Documents/Projets /WebBoxfactory/installpro34/installpro34/templates/home.html.twig");
+\t{{message}}
+{% endblock %}
+", "home.html.twig", "/Users/romainc/Documents/Projets /WebBoxfactory/installpro34/installpro34/templates/home.html.twig");
     }
 }
