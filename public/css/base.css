@@ -1,0 +1,86 @@
+
+
+:root {
+    /* Define colors  */
+    --main-red: #F23D3D;
+    --nav-blue: #32323f;
+    --body-blue: #1d1f2d;
+ 
+}
+@font-face {
+    font-family: WorkSans;
+    src: url(/fonts/Work_Sans/static/WorkSans-ExtraLight.ttf);
+}
+
+body{
+    background-color: var(--body-blue);
+    font-family: WorkSans;
+}
+nav{
+    background-color: var(--nav-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 6.85vw;
+box-shadow: var(--main-shadow);
+
+
+}
+.logo_link {
+    position: absolute;
+    z-index: 7;
+    left: 15vw;
+    top: 2vw;
+
+}
+.logo_img {
+    width: 13vw;
+}
+
+
+
+.site-title{
+    display: flex;
+    flex-direction: row; 
+    font-size: 1.2vw;
+
+}
+.site-title>.accueil{
+    margin-right: 2vw;
+}
+
+
+  a:link, a:visited, .demande-devis {
+    text-decoration: none;
+    color: aliceblue; 
+} 
+
+a:hover{
+    color: rgb(242, 61, 61);
+
+}
+
+ul{
+    display: flex;
+align-items: center;
+    list-style-type: none;
+}
+
+.demande-devis{
+    position: relative;
+    background-color: var(--main-red);
+    font-size: 1vw;
+font-weight: 800;
+    border-radius: 5vw;
+    border-color: transparent;
+    left: 9vw;
+padding: .4vw;
+
+transition: background-color .3s;
+}
+
+.demande-devis:hover{
+    background-color: rgb(231, 123, 123);
+}
