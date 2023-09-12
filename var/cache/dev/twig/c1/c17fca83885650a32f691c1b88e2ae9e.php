@@ -72,7 +72,7 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
 \t\t";
         // line 23
         $this->displayBlock('body', $context, $blocks);
-        // line 45
+        // line 47
         echo "\t</body>
 
 </html>
@@ -178,7 +178,9 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
 \t\t\t\t\t\t\t<a href=\"\">NOS SERVICES</a>
 \t\t\t\t\t\t</li>
 \t\t\t\t\t</ul>
+
 \t\t\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis</button>
+
 \t\t\t\t</div>
 \t\t\t</nav>
 \t\t";
@@ -197,7 +199,7 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
 
     public function getDebugInfo()
     {
-        return array (  174 => 35,  161 => 24,  151 => 23,  133 => 18,  119 => 12,  109 => 11,  89 => 6,  76 => 45,  74 => 23,  68 => 19,  66 => 18,  63 => 17,  61 => 11,  56 => 8,  54 => 6,  47 => 1,);
+        return array (  174 => 35,  161 => 24,  151 => 23,  133 => 18,  119 => 12,  109 => 11,  89 => 6,  76 => 47,  74 => 23,  68 => 19,  66 => 18,  63 => 17,  61 => 11,  56 => 8,  54 => 6,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -242,7 +244,9 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
 \t\t\t\t\t\t\t<a href=\"\">NOS SERVICES</a>
 \t\t\t\t\t\t</li>
 \t\t\t\t\t</ul>
+
 \t\t\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis</button>
+
 \t\t\t\t</div>
 \t\t\t</nav>
 \t\t{% endblock %}

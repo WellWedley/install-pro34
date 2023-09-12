@@ -102,9 +102,19 @@ class __TwigTemplate_bf4a047f6c1fa07b1148865556417bf6 extends Template
 
 \t\t\t<div class=\"telesurv-container\">
 \t\t\t\t<h1 class=\"telesurv-title\">TÉLÉSURVEILLANCE 24H/24 7J/7
-
-
 \t\t\t\t</h1>
+\t\t\t\t<div class=\"diapo-sentence\">
+\t\t\t\t\t<h3 class=\"first-sentence\">Pour vous protéger des cambriolages
+\t\t\t\t\t</h3>
+\t\t\t\t\t<h4 class=\"second-sentence\">
+
+\t\t\t\t\t\tFrais d'installation offerts.
+\t\t\t\t\t</h4>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"button-container\">
+\t\t\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis</button>
+\t\t\t\t</div>
+
 \t\t\t</div>
 \t\t</div>
 
@@ -152,9 +162,19 @@ class __TwigTemplate_bf4a047f6c1fa07b1148865556417bf6 extends Template
 
 \t\t\t<div class=\"telesurv-container\">
 \t\t\t\t<h1 class=\"telesurv-title\">TÉLÉSURVEILLANCE 24H/24 7J/7
-
-
 \t\t\t\t</h1>
+\t\t\t\t<div class=\"diapo-sentence\">
+\t\t\t\t\t<h3 class=\"first-sentence\">Pour vous protéger des cambriolages
+\t\t\t\t\t</h3>
+\t\t\t\t\t<h4 class=\"second-sentence\">
+
+\t\t\t\t\t\tFrais d'installation offerts.
+\t\t\t\t\t</h4>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"button-container\">
+\t\t\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis</button>
+\t\t\t\t</div>
+
 \t\t\t</div>
 \t\t</div>
 

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'WorkSansSB';
-    src: url('fonts/Work_Sans/static/WorkSans-SemiBold.ttf');
+    font-family: WorkSansSB;
+    src: url(/fonts/Work_Sans/static/WorkSans-SemiBold.ttf);
 }
 
 .carousel-container {
@@ -32,10 +32,42 @@
     text-align: center;
     padding: 2vw;
 
+
 }
 
 .telesurv-title {
     font-size: 4vw;
-    font-family: 'WorkSansSB';
+    font-family: WorkSansSB;
 
+}
+
+.diapo-sentence {
+    position: relative;
+    left: 7vw;
+    margin-top: 1vw;
+    width: 50vw;
+    text-align: left;
+}
+
+.second-sentence {
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+
+.button-container {
+
+    position: relative;
+    top: 6.5vw;
+}
+
+.button-container>.demande-devis {
+    position: relative;
+    left: 1.5vw;
+
+
+    width: 17.5vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    font-weight: 800;
 }
