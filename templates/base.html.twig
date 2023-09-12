@@ -17,34 +17,31 @@
 
 		{% block javascripts %}{% endblock %}
 	</head>
-	<nav>
-		<div class="navbar-container">
-
-			<ul class="site-title">
-				<li>
-					<a class="logo_link" href="#">
-						<img class="logo_img" src="img/logo-securitas-partenaire-02.png">
-						<img class="logo_img2" src="img/logo-Installpro-Securitas-01.png">
-					</a>
-				</li>
-				<li class="accueil">
-					<a href="{{path('app_home')}}">ACCUEIL</a>
-				</li>
-				<li class="nos-services">
-					<a href="">NOS SERVICES</a>
-				</li>
 
 
-			</ul>
-			<button href="#devis" class="demande-devis" onclick="#devis-form">Demande de devis
-			</button>
+	<body>
+		{% block body %}
+			<nav>
+				<div class="navbar-container">
 
+					<ul class="site-title">
+						<li>
+							<a class="logo_link" href="#">
+								<img class="logo_img" src="img/logo-securitas-partenaire-02.png">
+								<img class="logo_img2" src="img/logo-Installpro-Securitas-01.png">
+							</a>
+						</li>
+						<li class="accueil">
+							<a href="{{path('app_home')}}">ACCUEIL</a>
+						</li>
+						<li class="nos-services">
+							<a href="">NOS SERVICES</a>
+						</li>
+					</ul>
+					<button href="#devis" class="demande-devis" onclick="#devis-form">Demande de devis</button>
+				</div>
+			</nav>
+		{% endblock %}
+	</body>
 
-		</div>
-
-	</nav>
-</html></header><body>
-<header>
-
-	{% block body %}{% endblock %}
-</body></body></html>
+</html>

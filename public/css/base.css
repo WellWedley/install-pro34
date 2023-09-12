@@ -12,10 +12,13 @@
     src: url(/fonts/Work_Sans/static/WorkSans-ExtraLight.ttf);
 }
 
-body {
+body, html {
     background-color: var(--body-blue);
     font-family: WorkSans;
+
 }
+
+
 
 .navbar-container {
     background-color: var(--nav-blue);
@@ -26,7 +29,6 @@ body {
     height: 6.85vw;
 
     box-shadow: var(--main-shadow);
-
 
 }
 

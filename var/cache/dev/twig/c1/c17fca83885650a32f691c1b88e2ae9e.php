@@ -66,43 +66,16 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
         $this->displayBlock('javascripts', $context, $blocks);
         // line 19
         echo "\t</head>
-\t<nav>
-\t\t<div class=\"navbar-container\">
-
-\t\t\t<ul class=\"site-title\">
-\t\t\t\t<li>
-\t\t\t\t\t<a class=\"logo_link\" href=\"#\">
-\t\t\t\t\t\t<img class=\"logo_img\" src=\"img/logo-securitas-partenaire-02.png\">
-\t\t\t\t\t\t<img class=\"logo_img2\" src=\"img/logo-Installpro-Securitas-01.png\">
-\t\t\t\t\t</a>
-\t\t\t\t</li>
-\t\t\t\t<li class=\"accueil\">
-\t\t\t\t\t<a href=\"";
-        // line 31
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
-        echo "\">ACCUEIL</a>
-\t\t\t\t</li>
-\t\t\t\t<li class=\"nos-services\">
-\t\t\t\t\t<a href=\"\">NOS SERVICES</a>
-\t\t\t\t</li>
 
 
-\t\t\t</ul>
-\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis
-\t\t\t</button>
-
-
-\t\t</div>
-
-\t</nav>
-</html></header><body>
-<header>
-
-\t";
-        // line 49
+\t<body>
+\t\t";
+        // line 23
         $this->displayBlock('body', $context, $blocks);
-        // line 50
-        echo "</body></body></html>
+        // line 45
+        echo "\t</body>
+
+</html>
 ";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
@@ -174,7 +147,7 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
 
     }
 
-    // line 49
+    // line 23
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -184,6 +157,31 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
+        // line 24
+        echo "\t\t\t<nav>
+\t\t\t\t<div class=\"navbar-container\">
+
+\t\t\t\t\t<ul class=\"site-title\">
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a class=\"logo_link\" href=\"#\">
+\t\t\t\t\t\t\t\t<img class=\"logo_img\" src=\"img/logo-securitas-partenaire-02.png\">
+\t\t\t\t\t\t\t\t<img class=\"logo_img2\" src=\"img/logo-Installpro-Securitas-01.png\">
+\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li class=\"accueil\">
+\t\t\t\t\t\t\t<a href=\"";
+        // line 35
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_home");
+        echo "\">ACCUEIL</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li class=\"nos-services\">
+\t\t\t\t\t\t\t<a href=\"\">NOS SERVICES</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t</ul>
+\t\t\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis</button>
+\t\t\t\t</div>
+\t\t\t</nav>
+\t\t";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -197,14 +195,9 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
         return "base.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  178 => 49,  160 => 18,  146 => 12,  136 => 11,  116 => 6,  105 => 50,  103 => 49,  82 => 31,  68 => 19,  66 => 18,  63 => 17,  61 => 11,  56 => 8,  54 => 6,  47 => 1,);
+        return array (  174 => 35,  161 => 24,  151 => 23,  133 => 18,  119 => 12,  109 => 11,  89 => 6,  76 => 45,  74 => 23,  68 => 19,  66 => 18,  63 => 17,  61 => 11,  56 => 8,  54 => 6,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -228,37 +221,34 @@ class __TwigTemplate_9e0be30e1e2a282d4092f6c8eda37e8c extends Template
 
 \t\t{% block javascripts %}{% endblock %}
 \t</head>
-\t<nav>
-\t\t<div class=\"navbar-container\">
-
-\t\t\t<ul class=\"site-title\">
-\t\t\t\t<li>
-\t\t\t\t\t<a class=\"logo_link\" href=\"#\">
-\t\t\t\t\t\t<img class=\"logo_img\" src=\"img/logo-securitas-partenaire-02.png\">
-\t\t\t\t\t\t<img class=\"logo_img2\" src=\"img/logo-Installpro-Securitas-01.png\">
-\t\t\t\t\t</a>
-\t\t\t\t</li>
-\t\t\t\t<li class=\"accueil\">
-\t\t\t\t\t<a href=\"{{path('app_home')}}\">ACCUEIL</a>
-\t\t\t\t</li>
-\t\t\t\t<li class=\"nos-services\">
-\t\t\t\t\t<a href=\"\">NOS SERVICES</a>
-\t\t\t\t</li>
 
 
-\t\t\t</ul>
-\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis
-\t\t\t</button>
+\t<body>
+\t\t{% block body %}
+\t\t\t<nav>
+\t\t\t\t<div class=\"navbar-container\">
 
+\t\t\t\t\t<ul class=\"site-title\">
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a class=\"logo_link\" href=\"#\">
+\t\t\t\t\t\t\t\t<img class=\"logo_img\" src=\"img/logo-securitas-partenaire-02.png\">
+\t\t\t\t\t\t\t\t<img class=\"logo_img2\" src=\"img/logo-Installpro-Securitas-01.png\">
+\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li class=\"accueil\">
+\t\t\t\t\t\t\t<a href=\"{{path('app_home')}}\">ACCUEIL</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li class=\"nos-services\">
+\t\t\t\t\t\t\t<a href=\"\">NOS SERVICES</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t</ul>
+\t\t\t\t\t<button href=\"#devis\" class=\"demande-devis\" onclick=\"#devis-form\">Demande de devis</button>
+\t\t\t\t</div>
+\t\t\t</nav>
+\t\t{% endblock %}
+\t</body>
 
-\t\t</div>
-
-\t</nav>
-</html></header><body>
-<header>
-
-\t{% block body %}{% endblock %}
-</body></body></html>
+</html>
 ", "base.html.twig", "/Users/romainc/Documents/Projets /WebBoxfactory/installpro34/installpro34/templates/base.html.twig");
     }
 }
